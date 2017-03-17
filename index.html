@@ -1,0 +1,117 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>A4G Livetweet</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="datawall-title">
+        <h1>Continuous twitter feed</h1>  
+    </div>
+    <div id="feeds">
+        <div class="team-feed">
+            <script class="livefeed" type="text/javascript">
+                $('.example2 .tweet').twittie({
+                    hashtag: 'appsforghent',
+                    template: '{{screen_name}}<br>{{tweet}}',
+                    count: 10
+                }, function () {
+                    setInterval(function() {
+                        var item = $('.example2 .tweet ul').find('li:first');
+                        item.animate( {marginLeft: '-220px', 'opacity': '0'}, 500, function() {
+                        $(this).detach().appendTo('.example2 .tweet ul').removeAttr('style');
+                        });
+                    }, 5000);
+                });
+            </script>
+        </div>
+        <div class="team-feed">
+            <script class="livefeed" type="text/javascript">
+                $('.example2 .tweet').twittie({
+                    hashtag: 'appsforghent',
+                    template: '{{screen_name}}<br>{{tweet}}',
+                    count: 10
+                }, function () {
+                    setInterval(function() {
+                        var item = $('.example2 .tweet ul').find('li:first');
+                        item.animate( {marginLeft: '-220px', 'opacity': '0'}, 500, function() {
+                        $(this).detach().appendTo('.example2 .tweet ul').removeAttr('style');
+                        });
+                    }, 5000);
+                });
+            </script>
+        </div>
+        <div class="team-feed">
+            <script class="livefeed" type="text/javascript">
+                $('.example2 .tweet').twittie({
+                    hashtag: 'appsforghent',
+                    template: '{{screen_name}}<br>{{tweet}}',
+                    count: 10
+                }, function () {
+                    setInterval(function() {
+                        var item = $('.example2 .tweet ul').find('li:first');
+                        item.animate( {marginLeft: '-220px', 'opacity': '0'}, 500, function() {
+                        $(this).detach().appendTo('.example2 .tweet ul').removeAttr('style');
+                        });
+                    }, 5000);
+                });
+            </script>
+        </div>
+        <div class="team-feed">
+            <script class="livefeed" type="text/javascript">
+                $('.example2 .tweet').twittie({
+                    hashtag: 'appsforghent',
+                    template: '{{screen_name}}<br>{{tweet}}',
+                    count: 10
+                }, function () {
+                    setInterval(function() {
+                        var item = $('.example2 .tweet ul').find('li:first');
+                        item.animate( {marginLeft: '-220px', 'opacity': '0'}, 500, function() {
+                        $(this).detach().appendTo('.example2 .tweet ul').removeAttr('style');
+                        });
+                    }, 5000);
+                });
+            </script>
+        </div>
+        <div class="team-feed">
+            <script class="livefeed" type="text/javascript">
+                $('.example2 .tweet').twittie({
+                    hashtag: 'appsforghent',
+                    template: '{{screen_name}}<br>{{tweet}}',
+                    count: 10
+                }, function () {
+                    setInterval(function() {
+                        var item = $('.example2 .tweet ul').find('li:first');
+                        item.animate( {marginLeft: '-220px', 'opacity': '0'}, 500, function() {
+                        $(this).detach().appendTo('.example2 .tweet ul').removeAttr('style');
+                        });
+                    }, 5000);
+                });
+            </script>
+        </div>
+        <div class="team-feed">
+            <script class="livefeed" type="text/javascript">
+                $('.example2 .tweet').twittie({
+                    hashtag: 'appsforghent',
+                    template: '{{screen_name}}<br>{{tweet}}',
+                    count: 10
+                }, function () {
+                    setInterval(function() {
+                        var item = $('.example2 .tweet ul').find('li:first');
+                        item.animate( {marginLeft: '-220px', 'opacity': '0'}, 500, function() {
+                        $(this).detach().appendTo('.example2 .tweet ul').removeAttr('style');
+                        });
+                    }, 5000);
+                });
+            </script>
+        </div>
+    </div>
+</body>
+</html>
