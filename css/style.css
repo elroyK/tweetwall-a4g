@@ -1,0 +1,27 @@
+.example2 {
+    width: 600px;
+    padding: 15px;
+    margin: 50px auto;
+    background: white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.example2 .tweet {
+    overflow: hidden;
+}
+
+.example2 ul {
+    width: 99999px;
+    height: 100px;
+}
+
+.example2 ul li {
+    width: 200px;
+    height: 100px;
+    float: left;
+    border-right: 1px solid #eee;
+    padding: 0 10px 0 0;
+    margin: 0 10px 0 0;
+}
