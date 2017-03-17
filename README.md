@@ -1,6 +1,7 @@
 Twitter livewall based on [Tweetie](https://github.com/sonnyt/Tweetie) by sonyt
+===
 
-#Usage
+# Usage
 New Twitter API requires oAuth Token Key, so it's three step process.
 
 ## Step 1
